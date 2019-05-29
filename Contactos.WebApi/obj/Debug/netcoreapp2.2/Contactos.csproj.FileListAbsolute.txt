@@ -1,0 +1,14 @@
+D:\Repository\netcore\Contactos\bin\Debug\netcoreapp2.2\Contactos.deps.json
+D:\Repository\netcore\Contactos\bin\Debug\netcoreapp2.2\Contactos.runtimeconfig.json
+D:\Repository\netcore\Contactos\bin\Debug\netcoreapp2.2\Contactos.runtimeconfig.dev.json
+D:\Repository\netcore\Contactos\bin\Debug\netcoreapp2.2\Contactos.dll
+D:\Repository\netcore\Contactos\bin\Debug\netcoreapp2.2\Contactos.pdb
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.csprojAssemblyReference.cache
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.csproj.CoreCompileInputs.cache
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.RazorAssemblyInfo.cache
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.RazorAssemblyInfo.cs
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.AssemblyInfoInputs.cache
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.AssemblyInfo.cs
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.RazorTargetAssemblyInfo.cache
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.dll
+D:\Repository\netcore\Contactos\obj\Debug\netcoreapp2.2\Contactos.pdb

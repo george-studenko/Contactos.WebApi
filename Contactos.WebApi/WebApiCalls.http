@@ -1,0 +1,30 @@
+http://localhost:5005/api/values/
+
+http://localhost:5005/api/v1/Contact
+
+http://localhost:5005/api/v1/Contact/2
+
+POST http://localhost:5005/api/v1/Contact
+Content-Type: application/json
+
+{
+    "nombre" : "Aguien 2",
+    "email" : "nombre@apellido.com",
+    "fechanacimiento": "2012-12-31",
+    "mensaje" : "Messag 123" 
+}
+
+
+PUT http://localhost:5005/api/v1/Contact/5
+Content-Type: application/json
+
+{
+    "id": 5,
+    "nombre" : "New Person",
+    "email" : "New@Person.com",
+    "fechanacimiento": "2012-12-31",
+    "mensaje" : "Message 123" 
+}
+
+DELETE http://localhost:5005/api/v1/Contact/4
+Content-Type: application/json
