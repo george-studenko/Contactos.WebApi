@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repository\\netcore\\Contactos\\Contactos.csproj": {}
+    "D:\\Repository\\netcore\\Contactos.WebApi\\Contactos.csproj": {}
   },
   "projects": {
-    "D:\\Repository\\netcore\\Contactos\\Contactos.csproj": {
+    "D:\\Repository\\netcore\\Contactos.WebApi\\Contactos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repository\\netcore\\Contactos\\Contactos.csproj",
+        "projectUniqueName": "D:\\Repository\\netcore\\Contactos.WebApi\\Contactos.csproj",
         "projectName": "Contactos",
-        "projectPath": "D:\\Repository\\netcore\\Contactos\\Contactos.csproj",
+        "projectPath": "D:\\Repository\\netcore\\Contactos.WebApi\\Contactos.csproj",
         "packagesPath": "C:\\Users\\slim1\\.nuget\\packages\\",
-        "outputPath": "D:\\Repository\\netcore\\Contactos\\obj\\",
+        "outputPath": "D:\\Repository\\netcore\\Contactos.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
