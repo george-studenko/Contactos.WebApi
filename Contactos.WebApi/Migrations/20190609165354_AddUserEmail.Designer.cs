@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Contactos.Migrations
 {
     [DbContext(typeof(ContactosContext))]
-    [Migration("20190530045947_UserMigration")]
-    partial class UserMigration
+    [Migration("20190609165354_AddUserEmail")]
+    partial class AddUserEmail
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,11 +40,15 @@ namespace Contactos.Migrations
                     b.ToTable("Contacto");
                 });
 
-            modelBuilder.Entity("Contactos.Models.User", b =>
+            modelBuilder.Entity("Contactos.Models.Users", b =>
                 {
                     b.Property<string>("Username")
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(20);
+
+                    b.Property<DateTime>("Created");
+
+                    b.Property<string>("Email");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -52,7 +56,7 @@ namespace Contactos.Migrations
 
                     b.HasKey("Username");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

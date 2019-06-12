@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Contactos.Models{
-    public class User{
+    public class Users{
         
         [Key]
         [Required]
@@ -15,5 +15,10 @@ namespace Contactos.Models{
         [Display(Name="Password")]
         [StringLength(100, ErrorMessage = "El valor para {0} debe contener entre {1} y {2} caracteres", MinimumLength=6)]
         public string Password {get;set;}
+        
+        public string Email { get; set; }
+
+        [DataType(DataType.Date)]
+        public DateTime Created { get; set; }     
     }
 }
